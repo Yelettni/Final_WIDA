@@ -43,7 +43,9 @@ Se realizaron análisis descriptivos de:
 # Hipótesis Formuladas
 
 **HIPÓTESIS 1:** La tasa de deserción varía significativamente entre niveles.
+
 **HIPÓTESIS 2:** Correlación positiva entre reprobación y deserción.
+
 **HIPÓTESIS 3:** Relación inversa entre matriculación  y deserción.
 
 # 📊 Visualización en Power BI
