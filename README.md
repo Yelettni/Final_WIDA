@@ -19,42 +19,39 @@ GRIS_SUAVE = '#E8E8E8'
 - **Eslogan:** "Transformando datos en decisiones que importan"
 - **Logo:** ![alt text](<Imagen de WhatsApp 2025-06-03 a las 12.52.10_908aca14.jpg>)
 
-# 🧠 Análisis de Deserción Escolar en Colombia - Caso Guainía (2011-2023)
+# 🧠Proyecto WIDA - Análisis de la Deserción Escolar en Colombia
 
-Este proyecto analiza la deserción escolar en Colombia con un enfoque especial en Guainía. A través de un análisis exploratorio de datos (EDA), visualizaciones interactivas en Power BI y formulación de hipótesis territoriales, proponemos soluciones para mejorar la permanencia educativa.
+Este proyecto fue desarrollado como parte del programa **Conexión mujeres Tic**. Analizamos datos abiertos del Ministerio de Educación Nacional para descubrir **el momento  en que los estudiantes abandonan el sistema educativo en Colombia**. A través de un análisis exploratorio de datos (EDA), visualizaciones interactivas en Power BI y formulación de hipótesis.
 
 # 📌 Objetivo
 
-Identificar patrones de deserción escolar en Colombia, analizar territorios críticos como Guainía y proponer intervenciones usando inteligencia de datos.
+Identificar el nivel educativo donde se presenta la mayor tasa de deserción escolar para proponer estrategias de intervención más efectivas.
+
+# 📌 Hallazgos clave
+- La **Secundaria** (grados 6 a 9) presenta la **tasa más alta de deserción escolar** con un 4.57%.
+- Municipios como **San Martín** superan el 5.8% de deserción, el doble del promedio nacional.
+- Se identificó un **punto crítico** durante la transición de Primaria a Secundaria.
+
 
 # 🔍 Análisis Exploratorio (EDA)
 Se realizaron análisis descriptivos de:
 
-- 📈 Tasas de deserción y repitencia por departamento y municipio.
-- 📅 Variaciones temporales (2011-2023).
-- 🔗 Correlaciones con conectividad y cobertura educativa.
+- 📈 Análisis exploratorio de datos históricos.
+- 📅 Comparación de tasas por niveles educativos.
+- 🔗 Focalización en municipios con tasas elevadas.
 
 # Hipótesis Formuladas
 
-**HIPÓTESIS 1:** La tasa de deserción varía significativamente entre niveles.
-**HIPÓTESIS 2:** Correlación positiva entre reprobación y deserción.
-**HIPÓTESIS 3:** Relación inversa entre matriculación (5-16) y deserción.
+**HIPÓTESIS 1:** La tasa de deserción varía significativamente entre niveles.
+**HIPÓTESIS 2:** Correlación positiva entre reprobación y deserción.
+**HIPÓTESIS 3:** Relación inversa entre matriculación  y deserción.
 
 # 📊 Visualización en Power BI
 # Estructura del Dashboard
 
 1. **Panorama Nacional**
-   - KPIs principales.
-   - Top 10 de deserción y repitencia.
-
-2. **Caso Guainía**
-   - KPIs específicos.
-   - Gráfico de línea temporal.
-   - Deserción por municipio.
-
-3. **Predicción y Simulación**
-   - Comparación de predicciones vs valores reales.
-   - Simulador interactivo: ¿qué pasa si mejoramos conectividad o inversión?
+   - Top 10 de deserción de departamentos.
+   - Top 10 de deserción de municipios.
 
 # 🛠️ Herramientas Utilizadas
 
@@ -69,11 +66,9 @@ Se realizaron análisis descriptivos de:
 │   ├── raw/          # Datos originales (NO modificarlos)
 │   └── processed/    # Datos limpios (CSV, JSON, etc.)
 ├── notebooks/
-│   ├── EDA.ipynb     # Análisis exploratorio
-│   └── model.ipynb   # Scripts de modelado (si aplica)
+│   ├── EDUCACION_COLOMBIA.ipynb     # Análisis exploratorio, EDA y analisis descrptivo.
 ├── docs/
-│   ├── hipotesis.md  # Documentación
-│   └── presentacion/ # Slides (PDF o PPT)
-├── dashboard/
+│   └── presentacion/ DESERCION_ESCOLAR (PDF o PPT)
+├── dashboard/ DESERCION_PORNIVELES.PBIX
 │   └── proyecto.pbix # Archivo de Power BI/Tableau
 └── README.md         # Guía del proyecto
