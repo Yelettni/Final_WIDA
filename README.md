@@ -17,7 +17,7 @@ NARANJA= '#FF6B35'
 AZUL_CLARO = '#74A9CF'    
 GRIS_SUAVE = '#E8E8E8'
 - **Eslogan:** "Transformando datos en decisiones que importan"
-- **Logo:** ![alt text](<Imagen de WhatsApp 2025-06-03 a las 12.52.10_908aca14.jpg>)
+- **Logo:** ![Logo](https://github.com/user-attachments/assets/5d0fd467-f2f8-4fce-a62b-eb2f63807657)
 
 # 🧠Proyecto WIDA - Análisis de la Deserción Escolar en Colombia
 
