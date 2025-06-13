@@ -65,12 +65,16 @@ Se realizaron análisis descriptivos de:
 # 📁 Estructura del Repositorio
 **Proyecto Final - WIDA/**
 ├── data/
+
 │   ├── raw/          # Datos originales (NO modificarlos)
 │   └── processed/    # Datos limpios (CSV, JSON, etc.)
+
 ├── notebooks/
 │   ├── EDUCACION_COLOMBIA.ipynb     # Análisis exploratorio, EDA y analisis descrptivo.
+
 ├── docs/
 │   └── presentacion/ DESERCION_ESCOLAR (PDF o PPT)
+
 ├── dashboard/ DESERCION_PORNIVELES.PBIX
 │   └── proyecto.pbix # Archivo de Power BI/Tableau
 └── README.md         # Guía del proyecto
